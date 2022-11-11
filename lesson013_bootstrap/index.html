@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Демо Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Front22</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Новости</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link">Что-то</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <h1>Привет мир!</h1>
+        <div class="row">
+            <p class="col-6 col-sm-4 col-md-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, officia animi, placeat quia voluptatum maiores esse autem fugit harum debitis quae perspiciatis ad, odio unde minima iste neque veniam dolorem.</p>
+            <p class="col-6 col-sm-4 col-md-3">Maiores quia ipsa minima, error doloribus nobis maxime? Quas consequatur eum ad vitae reprehenderit, aliquam velit, minus est explicabo cum at ipsum fuga asperiores quos molestiae? Alias magnam aliquid atque!</p>
+            <p class="col-6 col-sm-4 col-md-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, officia animi, placeat quia voluptatum maiores esse autem fugit harum debitis quae perspiciatis ad, odio unde minima iste neque veniam dolorem.</p>
+            <p class="col-6 col-sm-4 col-md-3">Maiores quia ipsa minima, error doloribus nobis maxime? Quas consequatur eum ad vitae reprehenderit, aliquam velit, minus est explicabo cum at ipsum fuga asperiores quos molestiae? Alias magnam aliquid atque!</p>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Элемент аккордеона #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона первого элемента.</strong> Оно отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Элемент аккордеона #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Элемент аккордеона #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+          </div>
+        <p>Repudiandae, accusantium laudantium incidunt quas similique repellat libero aspernatur rerum sed iste dicta minus quisquam quam facilis unde sit. Dicta eaque saepe atque doloremque voluptatibus totam tenetur perferendis maxime repudiandae!</p>
+        <div class="row justify-content-center"><a class="btn btn-outline-success col-6" href="#">Подписаться на раассылку</a></div>
+        <p>Nisi debitis exercitationem velit ipsum adipisci, quos beatae impedit mollitia ducimus minima deleniti porro eum quis earum assumenda fuga totam quas voluptates praesentium hic aut. Modi nesciunt voluptas officiis mollitia!</p>
+        <p>Incidunt, esse. Praesentium cum dolorem qui ex quo odio, maxime ad fuga dolores, repellendus commodi, eaque a! Eveniet aut deleniti porro molestias placeat obcaecati consequuntur reiciendis mollitia consequatur, a id?</p>
+        <div class="row justify-content-center">
+            <div class="card col-md-3 m-2 p-0">
+                <img src="https://source.unsplash.com/random/400x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary stretched-link">Перейти куда-нибудь</a>
+                </div>
+              </div>
+              <div class="card col-md-3 m-2">
+                <img src="https://source.unsplash.com/random/400x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                </div>
+              </div>
+              <div class="card col-md-3 m-2">
+                <img src="https://source.unsplash.com/random/400x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                </div>
+              </div>
+        </div>
+        <p>Consectetur repudiandae quod impedit, error dignissimos ab ipsum esse ratione et commodi dolore doloremque temporibus! Qui facilis officiis, cumque ipsam corrupti fugit? Quia, odit eveniet obcaecati blanditiis molestiae illum expedita?</p>
+        <p>Molestias minus tempora veritatis qui, soluta voluptatum expedita, perspiciatis praesentium dolore similique sapiente doloribus nulla fugiat asperiores suscipit beatae commodi distinctio aut voluptatibus. Saepe eius, aut vero dolor voluptatibus facere?</p>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/1250x600/ff0000/" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://fakeimg.pl/1250x600/00ff00/" class="d-block w-100" alt="https://fakeimg.pl/1250x600/00ff00/">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://fakeimg.pl/1250x600/0000ff/" class="d-block w-100" alt="https://fakeimg.pl/1250x600/0000ff/">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://fakeimg.pl/1250x600/555555/" class="d-block w-100" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+        </div>
+        <p>Officia esse at eaque necessitatibus fugiat nemo iusto, adipisci similique sapiente cupiditate, architecto nobis sequi accusantium ratione magnam suscipit! Sapiente, qui quod. Similique eveniet laborum, repudiandae provident tenetur eius iste?</p>
+        <p>Ducimus quam esse dolores quo unde harum repellendus, suscipit veritatis soluta incidunt ab mollitia minus laborum? Perferendis adipisci reprehenderit inventore repellendus sit voluptatum qui blanditiis labore, amet eum, dolorum provident!</p>
+        <div class="row">
+            <!-- Кнопка-триггер модального окна -->
+                <button type="button" class="btn btn-primary col-6" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Запустить модальное окно со статическим фоном
+                </button>
+  
+  
+        </div>
+        <p>Nesciunt eaque ipsa unde dicta possimus delectus molestias, natus alias vero, libero quae! Dolor magni ad exercitationem, totam quisquam deserunt beatae sit, sunt molestias voluptates maxime quibusdam quis aperiam ducimus.</p>
+        <p>Dignissimos eos illum fuga in blanditiis. Nostrum quasi id quod minus perspiciatis modi omnis illum non autem. Dignissimos repellat totam molestias labore odio culpa ex perspiciatis praesentium, quae itaque sunt?</p>
+        <p>Quod exercitationem maxime, at illo delectus, maiores libero autem velit doloremque explicabo sed expedita ab rerum, error deserunt. Inventore ad mollitia voluptas pariatur magni voluptate, officia sunt repellendus doloremque fugiat.</p>
+        <p>Laudantium impedit porro illo minus, accusantium rem aliquid tenetur eum quod sapiente. Alias odio provident illum ut incidunt necessitatibus veritatis aliquam voluptatibus, reprehenderit, libero, ullam dolorem animi assumenda modi molestias?</p>
+        <p>Dolorem corporis hic explicabo. Possimus optio cupiditate autem harum! Odit, animi! Quibusdam provident itaque asperiores, minima cum odit ipsam est cupiditate et earum quam porro praesentium officia ea tenetur ratione?</p>
+        <p>Quidem suscipit voluptatibus velit quasi porro tempore. Praesentium, quam eveniet veritatis voluptatum commodi soluta quibusdam obcaecati saepe eligendi id doloremque ullam animi accusantium illum vel quaerat ipsam, unde hic. Nostrum.</p>
+    </div>
+    <!-- Модальное окно -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Заголовок модального окна</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae aut asperiores tenetur vero veniam. Deserunt omnis asperiores vel, tenetur dicta totam! Nobis, fugiat commodi recusandae illo necessitatibus ipsum accusantium!</p>
+          <p>Et assumenda accusantium ipsam possimus, ea natus architecto eius porro sapiente veniam iure velit ut cumque dolore, nostrum pariatur minima ex? Delectus tenetur molestias adipisci, minima nam quasi quam a!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
